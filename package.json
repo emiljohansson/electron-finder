@@ -1,0 +1,29 @@
+{
+  "name": "electron-finder",
+  "version": "0.0.0",
+  "description": "A simplified app of the OSX Finder developed in electron.",
+  "main": "main.js",
+  "dependencies": {
+    "electron": "^1.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "ava",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emiljohansson/electron-finder.git"
+  },
+  "keywords": [
+    "electron",
+    "finder",
+    "app"
+  ],
+  "author": "Emil Johansson <emiljohansson.se@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emiljohansson/electron-finder/issues"
+  },
+  "homepage": "https://github.com/emiljohansson/electron-finder#readme"
+}

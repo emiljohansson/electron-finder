@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Finder</title>
+  <style media="screen">
+    body {
+      font-family: "Helvetica Neue";
+    }
+
+    h1 {
+      font-weight: lighter;
+    }
+
+    .dir,
+    .file {
+      margin-bottom: 10px;
+    }
+
+    .dir:hover {
+      background: aliceblue;
+      cursor: pointer;
+    }
+
+    .dir::before {
+      content: '';
+      background: url(images/dir.png) no-repeat;
+      padding-right: 30px;
+      background-size: 20px;
+    }
+
+    .file::before {
+      content: '';
+      background: url(images/file.png) no-repeat;
+      padding-right: 30px;
+      background-size: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Finder</h1>
+
+  <div class="list"></div>
+</body>
+
+<script>
+  require('./renderer.js')
+</script>
+
+</html>
