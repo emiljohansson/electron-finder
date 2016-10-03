@@ -1,6 +1,6 @@
 {
   "name": "electron-finder",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A simplified app of the OSX Finder developed in electron.",
   "main": "main.js",
   "dependencies": {
